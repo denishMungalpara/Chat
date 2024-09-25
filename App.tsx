@@ -7,9 +7,22 @@
 
 import React from 'react';
 import { StyleSheet, Text, View, } from 'react-native';
+
 function App(): React.JSX.Element {
   return (
     <View style={styles.sectionContainer}>
+      <Text style={styles.sectionTitle}>
+        Buddy's Chat
+      </Text>
+      <Text style={{ fontSize: 20, fontWeight: '500' }}>
+        Buddy's Chat
+      </Text>
+      <Text style={styles.sectionTitle}>
+        Buddy's Chat
+      </Text>
+      <Text style={styles.sectionTitle}>
+        Buddy's Chat
+      </Text>
       <Text style={styles.sectionTitle}>
         Buddy's Chat
       </Text>
